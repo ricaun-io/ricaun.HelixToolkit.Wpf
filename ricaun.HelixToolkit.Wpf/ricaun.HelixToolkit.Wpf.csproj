@@ -135,9 +135,9 @@
     </PropertyGroup>
     <ItemGroup>
       <InputAssemblies Include="$(TargetPath)" />
-      <!-- 
       <InputAssemblies Include="@(ReferencePathWithRefAssemblies)" Condition="'%(filename)' == 'HelixToolkit.Wpf'" />
       <InputAssemblies Include="@(ReferencePathWithRefAssemblies)" Condition="'%(filename)' == 'HelixToolkit'" />
+      <!-- 
       -->
     </ItemGroup>
 
