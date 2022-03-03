@@ -147,7 +147,7 @@
     </ItemGroup>
 
     <!-- https://github.com/peters/ILRepack.MSBuild.Task/blob/master/src/ILRepack.MSBuild.Task/ILRepack.cs -->
-    <ILRepack XmlDocumentation="true" AllowDuplicateResources="true" Union="false" DebugInfo="true" CopyAttributes="true" Parallel="true" Internalize="false" OutputType="$(OutputType)" MainAssembly="$(AssemblyName).dll" OutputAssembly="$(AssemblyName).dll" InputAssemblies="@(InputAssemblies)" WilcardInputAssemblies="true" InternalizeExcludeAssemblies="@(InternalizeExcludeAssemblies)" WorkingDirectory="$(WorkingDirectory)" />
+    <ILRepack XmlDocumentation="true" AllowDuplicateResources="true" Union="false" DebugInfo="true" CopyAttributes="true" AllowMultiple="true" Parallel="true" Internalize="false" OutputType="$(OutputType)" MainAssembly="$(AssemblyName).dll" OutputAssembly="$(AssemblyName).dll" InputAssemblies="@(InputAssemblies)" WilcardInputAssemblies="true" InternalizeExcludeAssemblies="@(InternalizeExcludeAssemblies)" WorkingDirectory="$(WorkingDirectory)" />
   </Target>
 
 </Project>
