@@ -6,6 +6,7 @@ This project is a compilation of the [HelixToolkit.Wpf](https://www.nuget.org/pa
 [![Nuke](https://img.shields.io/badge/Nuke-Build-blue)](https://nuke.build/)
 [![Publish](../../actions/workflows/Publish.yml/badge.svg)](../../actions)
 [![Develop](../../actions/workflows/Develop.yml/badge.svg)](../../actions)
+[![Release](https://img.shields.io/nuget/v/ricaun.HelixToolkit.Wpf?logo=nuget&label=release&color=blue)](https://www.nuget.org/packages/ricaun.HelixToolkit.Wpf)
 
 ## Release
 
