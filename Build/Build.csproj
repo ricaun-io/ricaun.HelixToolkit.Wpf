@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <RootNamespace></RootNamespace>
     <NoWarn>CS0649;CS0169</NoWarn>
     <NukeRootDirectory>.</NukeRootDirectory>
@@ -11,14 +11,6 @@
 
   <ItemGroup>
     <PackageReference Include="ricaun.Nuke" Version="*" />
-    <!--
-    <Reference Include="ricaun.Nuke">
-      <HintPath>..\..\ricaun.Nuke\ricaun.Nuke\bin\Release\ricaun.Nuke.dll</HintPath>
-    </Reference>
-    <PackageReference Include="Nuke.Common" Version="*" />
-    <PackageReference Include="Nuget.CommandLine" Version="*" />
-    <PackageReference Include="GitVersion.CommandLine" Version="*" />
-    -->
   </ItemGroup>
 
   <ItemGroup>
