@@ -11,14 +11,6 @@
 
   <ItemGroup>
     <PackageReference Include="ricaun.Nuke" Version="*" />
-    <!--
-    <Reference Include="ricaun.Nuke">
-      <HintPath>..\..\ricaun.Nuke\ricaun.Nuke\bin\Release\ricaun.Nuke.dll</HintPath>
-    </Reference>
-    <PackageReference Include="Nuke.Common" Version="*" />
-    <PackageReference Include="Nuget.CommandLine" Version="*" />
-    <PackageReference Include="GitVersion.CommandLine" Version="*" />
-    -->
   </ItemGroup>
 
   <ItemGroup>
