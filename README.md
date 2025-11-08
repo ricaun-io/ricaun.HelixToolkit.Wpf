@@ -23,4 +23,4 @@ The .NET Framework version uses the `HelixToolkit.Wpf` reference and the .NET Co
 
 Copyright (c) 2019 Helix Toolkit contributors
 
-This Project is [licensed](LICENSE) under the [MIT Licence](https://en.wikipedia.org/wiki/MIT_License).
+This Project is [licensed](LICENSE) under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).

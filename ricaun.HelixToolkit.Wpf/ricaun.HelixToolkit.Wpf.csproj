@@ -67,13 +67,14 @@
     <PackageProjectUrl>https://github.com/$(GitHubRepositoryOwner)/$(PackageId)</PackageProjectUrl>
     <RepositoryUrl>https://github.com/$(GitHubRepositoryOwner)/$(PackageId)</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
-    <PackageIcon></PackageIcon>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\README.md" Pack="true" PackagePath="\" Visible="false" />
     <None Include="..\LICENSE" Pack="true" PackagePath="\" Visible="false" />
+    <None Include="Resources\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <PropertyGroup>
