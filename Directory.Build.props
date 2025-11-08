@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <Version>2.25.0-beta</Version>
+    <Version>2.25.0-rc</Version>
     <HelixToolkitVersion>2.25.0</HelixToolkitVersion>
   </PropertyGroup>
 </Project>
