@@ -7,6 +7,14 @@
 
 This project is a `ILRepack` of the [HelixToolkit.Wpf](https://www.nuget.org/packages/HelixToolkit.Wpf/) and [HelixToolkit.Core.Wpf](https://www.nuget.org/packages/HelixToolkit.Core.Wpf/) package.
 
+## Installation
+
+Install the package using the `NuGet` package manager or using `PackageReference`.
+
+```xml
+<PackageReference Include="ricaun.HelixToolkit.Wpf" Version="*" />
+```
+
 ## ILRepack
 
 This project uses the [ricaun.ILRepack](https://www.nuget.org/packages/ricaun.ILRepack/) to merge the original assemblies into the `ricaun.HelixToolkit.Wpf` assembly.
