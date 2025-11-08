@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Updated
 - Update build CI/CD pipeline.
 - Add `netcoreapp3.1` to use `HelixToolkit.Core.Wpf` reference.
+- Change `net45` to `net462` to support `HelixToolkit.Wpf` version `2.25.0`.
 
 ## [2.23.0] / 2023-08-20
 ### Updated

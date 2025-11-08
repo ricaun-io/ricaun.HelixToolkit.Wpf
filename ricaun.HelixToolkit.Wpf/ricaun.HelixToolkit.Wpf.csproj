@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net462;netcoreapp3.1</TargetFrameworks>
     <OutputType>Library</OutputType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <UseWPF>true</UseWPF>
@@ -38,8 +38,6 @@
 
   <PropertyGroup>
     <PackageId>ricaun.HelixToolkit.Wpf</PackageId>
-    <Version>2.23.0</Version>
-    <HelixToolkitVersion>2.23.0</HelixToolkitVersion>
   </PropertyGroup>
 
   <PropertyGroup>
